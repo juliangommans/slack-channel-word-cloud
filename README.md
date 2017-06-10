@@ -5,7 +5,7 @@ This is a crudely developed (in my limited spare time, not enough time to polish
 It scrapes a given slack channel (for the api-key provided) over the past X days and puts the messages into a word cloud image. 
 It then uploads the image to either the same channel, or some other specified channel.
 
-##Usage 
+## Usage 
   - clone the repo
   - bundle install
   - enter an apikey in the base ruby file (next to the variable `token`)
